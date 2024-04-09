@@ -4,11 +4,18 @@ body {
   color: #111111;
 }
 
-h1, h2, h3, h4, ul, p, blockquote {
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
   margin: 0px;
 }
 
-ul{
+ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -20,8 +27,8 @@ a {
 }
 
 img {
-max-width: 100%;
-display: block;
+  max-width: 100%;
+  display: block;
 }
 
 img[src$=".jpg"] {
